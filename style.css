@@ -1,1 +1,8 @@
 /*font-family: 'Montserrat', sans-serif;*/
+@import "styles/footer.css";
+@import "styles/header.css";
+@import "styles/home.css";
+@import "styles/main.css";
+@import "styles/product.css";
+@import "styles/products.css";
+@import "styles/reset.css";
