@@ -1,0 +1,36 @@
+
+
+.categories {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 15px;}
+
+.categories .subtitle {
+    margin-bottom: 40px;
+
+    font-size: 30px;
+    font-weight: 500;
+    color: #EA5455;}
+
+ .categories .cta-title {
+    font-size: 15px;
+   color:  #2D4059;
+     text-decoration: none; }
+
+.categories .categories-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 24px;
+    }
+
+ .categories .categories-container div {
+   padding: 30px 0;    
+   text-align: center;
+   color: 
+    #E5E5E5;
+   background-color: 
+    #2D4059;
+   border-radius: 25px;
+    }
+
+   .container-prix { paddind:30px 0}
