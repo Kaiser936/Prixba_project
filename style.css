@@ -1,1 +1,193 @@
 /*font-family: 'Montserrat', sans-serif;*/
+@import url(./styles/reset.css);
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+	line-height: 1px;
+}
+
+section {
+	width: 100%;
+	height: 1200px;
+}
+.categorie-haut{
+	width: 1114px;
+	margin: 0 auto;
+}
+.flex{
+	width: 1184px;
+	margin: 0 auto;
+}
+.ufff{
+	width: 1184px;
+	margin: 0 auto;
+	position: relative;
+
+}
+.flex-left {
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 15px solid red;
+	position: absolute;
+	top: 170px;
+	left:1180px;
+	cursor:pointer ;
+}
+.flex-rigth{
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-right: 15px solid red;
+	position: absolute;
+	top: 170px;
+	cursor:pointer ;
+}
+.olala{
+	display: flex;
+	justify-content: space-between;
+}
+.categorie-haut a{
+	color: #EA5455;
+	font-size: 22px;
+	display: block;
+	margin-bottom: 25px;
+}
+.produi-box{
+	width: 263px;
+	height: 261px;
+	background-color: #FCFCFC;
+	border-radius: 15px;
+	box-shadow: 0px 1px 12px 3px rgba(0,0,0,0.5);
+}
+.produi-img-box {
+	width: 217px;
+	height: 187px;
+	border: 1px solid gray;
+	margin:16px 22px;
+}
+
+.produi-img-box img{
+	width: 217px;
+	height: 187px;
+}
+.info-produi{
+	width: 217px;
+
+	margin-left: 22px;
+	display: flex;
+	justify-content:space-between
+}
+.info-produi span{
+	font-size: 13px;
+	color: #2D4059;
+
+}
+.info-produi .yishil {
+	color: green;
+}
+.name-produi-box span{
+	font-size: 13px;
+	color: #2D4059;
+}
+.name-produi{
+	width: 217px;
+}
+.name-produi-box{
+	width: 217px;
+	margin-left: 22px;
+	margin-bottom: 5px;
+}
+
+
+/* ---- zhong ----  */
+.categorie-cont{
+	margin: 0 auto;
+	width: 1114px;
+	height: 34px;
+	display: flex;
+	line-height: 34px;
+	margin-bottom: 70px;
+	margin-top: 70px;
+}
+.categorie-title{
+	color:#EA5455;
+	margin-right: 15px;
+	font-size: 22px;
+}
+.categorie-cont a{
+	color:#2D4059;
+}
+.categorie-list{
+	width: 1114px;
+	margin: 0 auto;
+}
+.catigorie-menu{
+	width: 165px;
+	height: 163px;
+	border-radius: 25px;
+	background-color: #2D4059;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content:space-evenly;
+}
+.fa-solid{
+	font-size: 61px;
+	color: #E5E5E5;
+}
+span{
+	font-size: 18px;
+	color: #E5E5E5;
+}
+.categorie-first{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 24px;
+}
+.categorie-last{
+	display: flex;
+	justify-content: space-between;
+}
+
+.ok{
+	margin-bottom: 15px;
+}
+
+/* --- categorie-bas ---  */
+.categorie-bas{
+	width: 1114px;
+	/* border: 1px solid yellow; */
+	margin: 0 auto;
+	margin-top: 100px ;
+}
+.categorie-bas .a{
+	width: 1114px;
+	height: 34px;
+}
+.categorie-bas a h2{
+	display: block;
+	font-size: 22px;
+	line-height: 34px;
+	color:#EA5455;
+}
+
+.bas-imag{
+	width: 1114px;
+	/* border: 1px solid red; */
+	display: flex;
+	justify-content: space-between;
+}
+.bas-imag img{
+	width: 343px;
+	height: 232px;
+	/* border: 1px solid blue; */
+	margin-top: 25px;
+}
+.finish a{
+	color:#EA5455;
+	text-align: center; 
+	display: block;
+}
