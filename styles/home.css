@@ -1,4 +1,4 @@
-
+/* Categories */
 
 .categories {
     max-width: 1100px;
@@ -17,6 +17,10 @@
    color:  #2D4059;
      text-decoration: none; }
 
+/* prix vert */
+.sousblockprix {color: chartreuse;}
+
+
 .categories .categories-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -33,18 +37,25 @@
    border-radius: 25px;
     }
 
+
+/* qu est ce que c est? */
+
+ @media screen and (min-width: 500px) {
+    .categories .categories-container {
+      grid-template-columns: repeat(4, 1fr); }
+    }
+ 
+@media screen and (min-width: 800px) {
+    .categories .categories-container {
+    grid-template-columns: repeat(6, 1fr); }
+    }
+
+
+/* taille tout paragraphe general */
 .categories p {
     margin-top: 15px;
     font-weight: 600;
     }
 
-.container-prix { display:grid  ;grid-template-columns: repeat(4,1fr) ; gap: 24px; }
-.container-prix div {padding: 30px 0 ; }
-.imagecarre {max-inline-size: 1fr;}
-.sousblockprix {color: #42CC58 ;font-family: 'Montserrat', sans-serif;}
-.blocvente {background-color: beige;}
-
-
-.troisimagechoix { display: grid; grid-template-columns: repeat(3, 1fr);   gap: 24px;; }
-
-.troisimagechoix img { display: grid;padding: 30px 0;  text-align: center; border-radius: 25px;}
+/* 3 IMAGE BAS ne fonctionne pas pour le moment */
+.img3 {weight: 50%}
