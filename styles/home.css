@@ -33,4 +33,18 @@
    border-radius: 25px;
     }
 
-   .container-prix { paddind:30px 0}
+.categories p {
+    margin-top: 15px;
+    font-weight: 600;
+    }
+
+.container-prix { display:grid  ;grid-template-columns: repeat(4,1fr) ; gap: 24px; }
+.container-prix div {padding: 30px 0 ; }
+.imagecarre {max-inline-size: 1fr;}
+.sousblockprix {color: #42CC58 ;font-family: 'Montserrat', sans-serif;}
+.blocvente {background-color: beige;}
+
+
+.troisimagechoix { display: grid; grid-template-columns: repeat(3, 1fr);   gap: 24px;; }
+
+.troisimagechoix img { display: grid;padding: 30px 0;  text-align: center; border-radius: 25px;}
