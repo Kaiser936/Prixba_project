@@ -1,9 +1,7 @@
 .rectangle_gris
 {
     position: absolute;
-    left: 0%;
     right: 0%;
-    top: 0%;
     bottom: 49.28%;
     height: 86px;
     left: 0px;
@@ -28,7 +26,7 @@
     right: 82.56%;
     top: 27.8%;
     bottom: 70.05%;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
@@ -59,7 +57,7 @@
     left: 913px;
     top: 50px;
     bottom: 62.8%;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -76,7 +74,7 @@
     left: 1171px;
     top: 50px;
     border-radius: nullpx;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -92,7 +90,7 @@
     left: 1375px;
     top: 50PX;
     border-radius: nullpx;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -109,7 +107,7 @@
     left: 884px;
     top: 48px;
     border-radius: nullpx;
-    font-family: "Roboto";
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -126,7 +124,7 @@
     left: 1141px;
     top: 48px;
     border-radius: nullpx;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -142,7 +140,7 @@
     left: 1347px;
     top: 48px;
     border-radius: nullpx;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -183,4 +181,78 @@
     top: 42px;
     border-radius: 20px;
     background: #EA5455;
+}
+
+.rectangle_bleu
+{
+    position: absolute;
+    right: 0%;
+    bottom: 49.28%;
+    height: 86px;
+    left: 0px;
+    top: 85px;
+    border-radius: 0px;
+    background: #2D4059;
+}
+
+.formulaire_recherche .bouton_rech
+{
+    position: absolute;
+    left: 42.5%;
+    right: 0;
+    top: 30.7%;
+    bottom: 31.4%;
+    background: #EA5455;
+    border-radius: 7px;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.formulaire_recherche .text {
+    position: absolute;
+    height: 25px;
+    width: 277px;
+    left: 358px;
+    top: 31.7%;
+    bottom: 31.4%;
+    border-radius: 7px;
+    background: #FFFFFF;
+    border-radius: 7px;
+}
+
+.formulaire_recherche .categories
+{
+    height: 30.1px;
+    width: 110.6px;
+    left: 239px;
+    top: 26px;
+    border-radius: 7px;
+    position: absolute;
+    background: #E5E5E5;
+    color: #2D4059;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.liens {
+    position: absolute;
+    top: 33px;
+    left: 833px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-decoration: none;
 }
