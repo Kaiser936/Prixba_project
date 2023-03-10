@@ -20,6 +20,9 @@
 /* prix vert */
 .sousblockprix {color: chartreuse;}
 
+.flechepositiong {position: absolute;top: 40px; left: 40px;}
+.flechepositiond {position: absolute;top: 40px; right: 40px;}
+
 
 .categories .categories-container {
     display: grid;
@@ -38,12 +41,44 @@
     }
 
 
+.blocvente {
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.10);
+    padding: 20px;
+}
+
+.blocvente img {width: 100%;}
+
+.footer-bloc-vente {
+    display: flex;
+    justify-content: space-between;
+}
+
+.troisimagechoix img {
+    width: 100%;
+}
+
 /* qu est ce que c est? */
 
  @media screen and (min-width: 500px) {
     .categories .categories-container {
-      grid-template-columns: repeat(4, 1fr); }
+      grid-template-columns: repeat(4, 1fr); 
     }
+
+    .container-prix {
+        display: flex;
+        gap: 10px;
+    }
+
+    .troisimagechoix {
+        display: flex;
+        gap: 15px;
+    }
+
+
+
+}
+
+
  
 @media screen and (min-width: 800px) {
     .categories .categories-container {
