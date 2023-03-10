@@ -5,7 +5,7 @@
     right: 0%;
     top: 0%;
     bottom: 49.28%;
-    height: 105px;
+    height: 86px;
     left: 0px;
     top: 0px;
     border-radius: 0px;
@@ -24,9 +24,9 @@
 .text_logo
 {
     position: absolute;
-    left: 5.54%;
+    left: 5.5%;
     right: 82.56%;
-    top: 20.77%;
+    top: 27.8%;
     bottom: 70.05%;
     font-family: 'Roboto';
     font-style: normal;
@@ -41,9 +41,8 @@
 {
     position: absolute;
     height: 25px;
-    width: 830px;
-    left: 806px;
-    top: 22px;    
+    left: 911px;
+    top: 9px;   
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -57,11 +56,9 @@
 .choix
 {
     position: absolute;
-    height: 16px;
-    width: 203px;
-    left: 1017px;
-    top: 61px;
-    border-radius: nullpx;
+    left: 913px;
+    top: 50px;
+    bottom: 62.8%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -69,16 +66,15 @@
     line-height: 17px;
     text-align: right;
     letter-spacing: -0.015em;
-    color: #000000;  
+    color: #000000;
 }
 
 .retrait
 {
     position: absolute;
     height: 16px;
-    width: 117px;
-    left: 1305px;
-    top: 61px;
+    left: 1171px;
+    top: 50px;
     border-radius: nullpx;
     font-family: 'Roboto';
     font-style: normal;
@@ -93,9 +89,8 @@
 {
     position: absolute;
     height: 16px;
-    width: 206.97276306152344px;
-    left: 1429.02734375px;
-    top: 61px;
+    left: 1375px;
+    top: 50PX;
     border-radius: nullpx;
     font-family: 'Roboto';
     font-style: normal;
@@ -111,9 +106,8 @@
 {
     position: absolute;
     height: 16px;
-    width: 206.97276306152344px;
-    left: 920px;
-    top: 61px;
+    left: 884px;
+    top: 48px;
     border-radius: nullpx;
     font-family: "Roboto";
     font-style: normal;
@@ -129,9 +123,8 @@
 {
     position: absolute;
     height: 16px;
-    width: 206.97276306152344px;
-    left: 1180px;
-    top: 61px;
+    left: 1141px;
+    top: 48px;
     border-radius: nullpx;
     font-family: 'Roboto';
     font-style: normal;
@@ -146,8 +139,8 @@
 .trois
 {
     position: absolute;
-    left: 1486px;
-    top: 61px;
+    left: 1347px;
+    top: 48px;
     border-radius: nullpx;
     font-family: 'Roboto';
     font-style: normal;
@@ -164,8 +157,8 @@
     position: absolute;
     height: 30px;
     width: 30px;
-    left: 1008px;
-    top: 55px;
+    left: 872px;
+    top: 42px;
     border-radius: 20px;
     background: #EA5455;
 }
@@ -175,8 +168,8 @@
     position: absolute;
     height: 30px;
     width: 30px;
-    left: 1268px;
-    top: 55px;
+    left: 1130px;
+    top: 42px;
     border-radius: 20px;
     background: #EA5455;
 }
@@ -186,8 +179,8 @@
     position: absolute;
     height: 30px;
     width: 30px;
-    left: 1475px;
-    top: 55px;
+    left: 1335px;
+    top: 42px;
     border-radius: 20px;
     background: #EA5455;
 }
