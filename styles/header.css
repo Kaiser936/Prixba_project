@@ -110,6 +110,8 @@ header h1 {
 }
 
 .rectangle_bleu .basket {
+    display: flex;
+    align-items: center;
 
 }
 
