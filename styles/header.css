@@ -36,254 +36,85 @@ header h1 {
     justify-content: space-between;
 }
 
-.choix
-{
-    position: absolute;
-    left: 913px;
-    top: 50px;
-    bottom: 62.8%;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: right;
-    letter-spacing: -0.015em;
-    color: #000000;
-}
-
-.retrait
-{
-    position: absolute;
-    height: 16px;
-    left: 1171px;
-    top: 50px;
-    border-radius: nullpx;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    letter-spacing: -0.015em;
-    color: #000000;
-}
-
-.paiement
-{
-    position: absolute;
-    height: 16px;
-    left: 1375px;
-    top: 50PX;
-    border-radius: nullpx;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: right;
-    letter-spacing: -0.015em;
-    color: #000000;
-}
-
-.un
-{
-    position: absolute;
-    height: 16px;
-    left: 884px;
-    top: 48px;
-    border-radius: nullpx;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 17px;
-    text-align: center;
-    letter-spacing: -0.015em;
-    color: #ffffff;
-}
-
-.deux
-{
-    position: absolute;
-    height: 16px;
-    left: 1141px;
-    top: 48px;
-    border-radius: nullpx;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 17px;
-    text-align: center;
-    letter-spacing: -0.015em;
-    color: #ffffff;
-}
-
-.trois
-{
-    position: absolute;
-    left: 1347px;
-    top: 48px;
-    border-radius: nullpx;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 17px;
-    text-align: center;
-    letter-spacing: -0.015em;
-    color: #ffffff;
-}
-
-.cercle1
-{
-    position: absolute;
-    height: 30px;
-    width: 30px;
-    left: 872px;
-    top: 42px;
-    border-radius: 20px;
-    background: #EA5455;
-}
-
-.cercle2
-{
-    position: absolute;
-    height: 30px;
-    width: 30px;
-    left: 1130px;
-    top: 42px;
-    border-radius: 20px;
-    background: #EA5455;
-}
-
-.cercle3
-{
-    position: absolute;
-    height: 30px;
-    width: 30px;
-    left: 1335px;
-    top: 42px;
-    border-radius: 20px;
-    background: #EA5455;
-}
-
-.rectangle_bleu
-{
-    position: absolute;
-    right: 0%;
-    bottom: 49.28%;
-    height: 86px;
-    left: 0px;
-    top: 85px;
-    border-radius: 0px;
+.rectangle_bleu {
     background: #2D4059;
+    height: 65px;
 }
 
 
-.formulaire_recherche
-{
+.recherche {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 30px;
     font-family: 'Montserrat';
 }
-.formulaire_recherche .bouton_rech
-{
-    position: absolute;
-    left: 42.5%;
-    right: 0;
-    top: 30.7%;
-    bottom: 31.4%;
+
+.formulaire_recherche .bouton_rech {
     background: #EA5455;
     border-radius: 7px;
     color: white;
     font-family: 'Montserrat';
     font-size: 12px;
-    font-weight: 700;
-    line-height: 18px;
-    letter-spacing: 0em;
-    text-align: center;
 }
 
 .formulaire_recherche .text {
-    position: absolute;
-    height: 25px;
-    width: 277px;
-    left: 358px;
-    top: 31.7%;
-    bottom: 31.4%;
-    border-radius: 7px;
     background: #FFFFFF;
     border-radius: 7px;
 }
 
-.formulaire_recherche .categories
-{
-    height: 30.1px;
-    width: 110.6px;
-    left: 239px;
-    top: 26px;
-    border-radius: 7px;
-    position: absolute;
+.formulaire_recherche .categories {
     background: #E5E5E5;
     color: #2D4059;
     font-family: 'Montserrat';
     font-size: 12px;
     font-weight: 700;
     line-height: 18px;
-    letter-spacing: 0em;
     text-align: center;
 }
 
 .liens {
-    position: absolute;
-    top: 33px;
-    left: 833px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     font-family: 'Montserrat';
     font-size: 12px;
     font-weight: 700;
     line-height: 18px;
-    letter-spacing: 0em;
     text-align: center;
 }
 
-.liens .cata
-{
-    margin-right: 25px;
+.liens >*
+    {
+        margin: 25px;
+    }
+
+.liens .cata {
     text-decoration: none;
     color: #ffffff;
 }
 
-.liens .qst
-{
-    margin-right: 25px;
+.liens .qst {
     text-decoration: none;
     color: #ffffff;
 }
 
-.liens .connexion
-{
+.liens .connexion {
     text-decoration: none;
     color: #ffffff;
 }
 
-.liens .fleche
-{
-    margin-right: 25px;
+.liens .fleche {
     color: #FFFFFF;
 }
 
-.rectangle_bleu .basket
-{
-    margin-left: 1230px;
-    margin-top: 33px;
+.rectangle_bleu .basket {
+
 }
 
 .cercle4
 {
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    left: 1254px;
-    top: 31px;
     border-radius: 20px;
     background: #ffffff;
 }
