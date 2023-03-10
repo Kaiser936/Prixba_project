@@ -195,6 +195,11 @@
     background: #2D4059;
 }
 
+
+.formulaire_recherche
+{
+    font-family: 'Montserrat';
+}
 .formulaire_recherche .bouton_rech
 {
     position: absolute;
@@ -247,12 +252,42 @@
     position: absolute;
     top: 33px;
     left: 833px;
-    color: #ffffff;
     font-family: 'Montserrat';
     font-size: 12px;
     font-weight: 700;
     line-height: 18px;
     letter-spacing: 0em;
     text-align: center;
+}
+
+.liens .cata
+{
+    margin-right: 25px;
     text-decoration: none;
+    color: #ffffff;
+}
+
+.liens .qst
+{
+    margin-right: 25px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.liens .connexion
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.liens .fleche
+{
+    margin-right: 25px;
+    color: #FFFFFF;
+}
+
+.rectangle_bleu .basket
+{
+    margin-left: 1230px;
+    margin-top: 33px;
 }
